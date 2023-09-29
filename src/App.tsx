@@ -1,6 +1,6 @@
 import './App.css';
 import CodingGame from './components/CodingGame';
-import quizData from './guizData';
+import quizData from './quizData';
 
 
 function App() {
