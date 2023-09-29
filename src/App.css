@@ -1,0 +1,62 @@
+
+.app {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 1rem;
+  color: white;
+}
+
+.app_info {
+  padding-bottom: 1rem;
+  font-weight: 500;
+}
+
+.buttons_container {
+  gap: 1rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.app_header {
+  background-color: rgba(34, 233, 80, 0.071);
+  padding: 10px;
+  border-radius: 3px;
+  color: rgb(154, 231, 47);
+}
+
+button {
+  border-radius: 5px;
+  color: rgba(255, 255, 255, 0.846);
+  background-color: rgba(134, 211, 47, 0.121);
+  border: 1px transparent;
+  height: 10rem;
+  width: 8.5rem;
+  line-height: 1.2rem;
+  cursor: pointer;
+  font-style: italic;
+  
+}
+
+button:hover {
+  background: rgb(132, 36, 205);
+}
+
+#resetBtn {
+  height: 2rem;
+  background-color: rgba(134, 211, 47, 0.712);
+  font-weight: 600;
+  font-style: normal;
+}
+
+.app_info--sources {
+  padding-top: 5rem;
+  font-size: 0.8rem;
+}
+
+
+
+

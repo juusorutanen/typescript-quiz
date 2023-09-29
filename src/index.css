@@ -1,0 +1,26 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: 'Libre Franklin', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: rgb(2,0,36);
+  background: linear-gradient(90deg, rgb(2, 1, 20) 0%, rgb(20, 12, 71) 67%, rgb(17, 6, 38) 100%);
+}
+
+.selected {
+  background: #47da67ab;
+}
+
+.wrong {
+  background: #fa3131ad;
+}
+
+span {
+  color:greenyellow;
+}
