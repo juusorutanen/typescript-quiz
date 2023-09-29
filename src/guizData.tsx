@@ -1,5 +1,5 @@
 
-const gameData = {
+const guizData = {
   "____ an interface will have the same properties as that interface.": "Extending",
   "____ is a return type for when nothing is returned.": "Void",
   "Access modifiers control the ____ of properties and methods.": "Visibility",
@@ -11,4 +11,4 @@ const gameData = {
   "____ allow you to define a set of values that a variable can have": "Enums"
 };
 
-export default gameData;
+export default guizData;
