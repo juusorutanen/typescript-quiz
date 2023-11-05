@@ -57,6 +57,12 @@ button:hover {
   font-size: 0.8rem;
 }
 
+.congrats {
+  font-size: 40px;
+  font-weight: 700;
+  margin-bottom: 10px;
+  color: rgb(154, 231, 47);
+}
 
 
 

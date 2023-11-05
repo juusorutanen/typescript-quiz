@@ -114,7 +114,7 @@ export default function CodingGame({data}: {data: Record<string, string>}) {
   if (gameState === "gameOver") {
     return (
     <>
-    <div>Congrats!</div>
+    <div className='congrats'>Congrats!</div>
     <button id="resetBtn" onClick={resetGame}>Try again?</button>
     </>
     )
